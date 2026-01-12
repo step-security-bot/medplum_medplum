@@ -1,4 +1,4 @@
-FROM --platform=linux/amd64 debian:bullseye-slim
+FROM --platform=linux/amd64 debian:bullseye-slim@sha256:c5f48c942c667e70d7e64b124cfc939c25a4a43207c0d14b45844d762dc1d50f
 
 ARG GIT_SHA
 ARG MEDPLUM_VERSION
